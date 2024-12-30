@@ -2,13 +2,13 @@
 
 ### grub background :)
 sudo cp pictures/grub/grub.png /boot/grub/grub.png
-sudo echo -e "\nGRUB_BACKGROUND=\"/boot/grub/grub.png\"\n" >> /etc/default/grub
+sudo bash -c 'echo -e "\nGRUB_BACKGROUND=\"/boot/grub/grub.png\"\n" >> /etc/default/grub'
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 ### install packages
 git clone https://aur.archlinux.org/paru.git
 cd paru
-makepkg -si
+makepkg -si --needed
 cd ..
 rm -rf paru
 paru -Syu --needed - < hyprland-packages.txt
