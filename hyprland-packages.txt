@@ -1,5 +1,6 @@
 rustup
 waybar
+wlogout
 hyprlock
 hyprpaper
 hypridle
