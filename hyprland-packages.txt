@@ -1,32 +1,8 @@
-# programs
-obs
-fastfetch
-llvm
-lldb
-gdb
-clang
-go
 rustup
-jdk-openjdk
-cmake
-godot
-obsidian
-
-
-# aur
-pamac-aur
-visual-studio-code-bin
-
-# drivers
-nvidia
-nvidia-utils
-
-# hyprland (changes are not recommended)
 waybar
 hyprlock
 hyprpaper
 hypridle
-
 kitty
 thunar
 thunar-archive-plugin
@@ -43,7 +19,6 @@ breeze
 breeze-gtk
 qt6ct
 fish
-
 noto-fonts
 noto-fonts-cjk
 noto-fonts-emoji
@@ -51,4 +26,7 @@ noto-fonts-extra
 ttf-jetbrains-mono
 ttf-jetbrains-mono-nerd
 otf-font-awesome
-
+wl-clip-persist
+wl-clipboard
+cliphist
+brightnessctl

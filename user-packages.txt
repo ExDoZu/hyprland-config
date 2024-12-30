@@ -1,0 +1,17 @@
+obs
+fastfetch
+llvm
+lldb
+gdb
+clang
+go
+jdk-openjdk
+cmake
+godot
+obsidian
+
+pamac-aur
+visual-studio-code-bin
+
+nvidia
+nvidia-utils
