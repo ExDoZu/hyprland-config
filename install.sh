@@ -43,7 +43,10 @@ cp -r waybar ~/.config/
 rm -rf ~/.config/wlogout
 cp -r wlogout ~/.config/
 
-# for VPN
+rm -rf ~/.config/xfce4 
+cp -r xfce4 ~/.config/ # for Thunar
+
+### for VPN
 sudo systemctl enable systemd-resolved.service && sudo systemctl start systemd-resolved.service 
 
 reboot
