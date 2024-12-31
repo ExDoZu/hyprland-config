@@ -9,7 +9,7 @@ lldb
 llvm
 nvidia
 nvidia-utils
-obs
+obs-studio
 obsidian
 pamac-aur
 visual-studio-code-bin
