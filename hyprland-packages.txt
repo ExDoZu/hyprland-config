@@ -4,6 +4,7 @@ brightnessctl
 cliphist
 firefox
 fish
+gvfs
 hypridle
 hyprland
 hyprlock
