@@ -43,4 +43,7 @@ cp -r waybar ~/.config/
 rm -rf ~/.config/wlogout
 cp -r wlogout ~/.config/
 
+# for VPN
+sudo systemctl enable systemd-resolved.service && sudo systemctl start systemd-resolved.service 
+
 reboot
